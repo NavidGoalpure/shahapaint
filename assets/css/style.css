@@ -921,7 +921,10 @@ p {
     padding-bottom: 20px;
   }
 }
+.header__bottom {
+  transition:all 0.3s ease;
 
+}
 .header__bottom.sticky {
   left: 0;
   margin: auto;
@@ -932,13 +935,21 @@ p {
   padding: 0.5rem;
   box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.07);
   z-index: 99;
+  transition:all 0.3s ease;
+
   -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
   animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
   -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
   background: #ffffff;
+ > div {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .header__bottom.sticky.sticky-2 {
+  transition:all 0.3s ease;
+
   background: #222328;
 }
 
@@ -959,8 +970,8 @@ p {
   top: 0;
   left: 0;
   right: 0;
+  padding: 0.5rem;
   width: 100%;
-  height: 10%;
   z-index: 99;
   display: flex;
   align-items: center;
