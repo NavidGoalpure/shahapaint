@@ -4274,8 +4274,8 @@ p {
 
 .testimonial__shape-1 {
   position: absolute;
-  top: -80px;
-  right: 85px;
+  top: -50px;
+  right: 25px;
   z-index: -1;
 }
 
@@ -7334,7 +7334,9 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 }
 
 .footer__copyright {
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   @media screen and (max-width: 575px) {
     display: flex;
     flex-direction: column;
