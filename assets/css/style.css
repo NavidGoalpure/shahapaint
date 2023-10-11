@@ -2068,6 +2068,9 @@ p {
 .about__content-2 .link-btn:hover {
   color: #fad105;
 }
+.about__content-2 h3:hover {
+  color: #fad105;
+}
 
 .about__author-info h3 {
   font-size: 20px;
@@ -2162,6 +2165,7 @@ p {
 
 .about__item-green .about__title-2 {
   color: #ffffff;
+  
 }
 
 .about__item-green .about__title-2 a:hover {
@@ -2226,7 +2230,7 @@ p {
   color: #cfcfcf;
 }
 
-.about__title-2 a:hover {
+.about__title-2 h3:hover {
   color: #fad105;
 }
 
@@ -2391,6 +2395,18 @@ p {
   margin-bottom: 35px;
   padding-bottom: 35px;
   border-bottom: 2px solid #dedede;
+}
+
+.footer__contacts{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  @media screen and (max-width: 480px) {
+    width: min-content;
+  }
 }
 
 .features__item-2 {
@@ -2954,6 +2970,10 @@ p {
   z-index: 1;
 }
 
+.services__content  h3:hover{
+  color: #fad105;
+}
+
 @media (max-width: 575px) {
   .services__content {
     padding-left: 0;
@@ -3028,6 +3048,10 @@ p {
   -moz-transform: translateY(-10px) translate3d(0, -10px, 0);
   -ms-transform: translateY(-10px) translate3d(0, -10px, 0);
   transform: translateY(-10px) translate3d(0, -10px, 0);
+}
+
+.services__item-2:hover h3{
+    color: #fad105;
 }
 
 .services__item-2:hover .services__icon i {
