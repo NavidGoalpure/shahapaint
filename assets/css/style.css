@@ -485,10 +485,6 @@ p {
   color: #000;
 }
 
-.r-btn-yellow:focus {
-  /* color: #000; */
-}
-
 .r-btn-yellow:hover {
   color: #ffffff;
 }
