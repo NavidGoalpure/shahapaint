@@ -7433,4 +7433,18 @@ only screen and (min-width: 576px) and (max-width: 767px) {
   line-height: 24px;
 }
 
+
+.loading-spinner {
+  border: 1px solid #fad105;
+  border-top: 4px solid #fad105;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
 /*# sourceMappingURL=style.css.map */
